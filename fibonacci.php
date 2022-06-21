@@ -2,9 +2,9 @@
 $num = 0 ;
 $n1  = 0 ;
 $n2  = 1 ;
-echo " <h3> suite de fibonacci des 15 premiers nombres </h3> </br>";
+echo " <h3> suite de fibonacci des 40 premiers nombres </h3> </br>";
 echo $n1 ."    " .$n2;
-while ($num < 15 ) {
+while ($num < 40 ) {
 	$n3 = $n1 + $n2 ;
 	echo "   " .$n3;
 	$n1 = $n2;
